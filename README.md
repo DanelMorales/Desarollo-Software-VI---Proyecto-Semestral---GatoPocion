@@ -21,26 +21,6 @@ React Native 0.86 / React 19
 expo-sensors — lectura del acelerómetro (nivel de mezcla de colores)
 expo-audio — efectos de sonido y música
 @react-native-async-storage/async-storage — almacenamiento local persistente del progreso
-Estructura del proyecto
-GatoPocion/
-├── App.js                     # Punto de entrada y navegación entre pantallas
-├── src/
-│   ├── screens/                # Pantallas de la app
-│   │   ├── StartScreen.js
-│   │   ├── LevelMapScreen.js
-│   │   ├── GameScreen.js
-│   │   └── MixingScreen.js     # Nivel del sensor (acelerómetro)
-│   ├── game/                   # Lógica del juego
-│   │   ├── progressStorage.js  # Guardar/cargar/reiniciar progreso (AsyncStorage)
-│   │   ├── colorMixing.js      # Reglas de mezcla de colores
-│   │   ├── validator.js        # Validación de respuestas del jugador
-│   │   ├── instructionEngine.js# Generación de instrucciones aleatorias por nivel
-│   │   ├── sounds.js / music.js
-│   │   └── ...
-│   ├── data/
-│   │   └── levels.js           # Definición de los niveles (data-driven)
-│   └── components/              # Componentes reutilizables de UI
-└── assets/                     # Imágenes, íconos y sonidos
 Requisitos previos
 Node.js instalado
 La app Expo Go instalada en un celular Android o iOS (para probar sin compilar)
