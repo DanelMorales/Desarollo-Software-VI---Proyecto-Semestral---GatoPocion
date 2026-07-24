@@ -1,24 +1,23 @@
 {
   "expo": {
-    "name": "GatoPocion",
-    "slug": "GatoPocion",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
+    "name": "Gato-Poción",
+    "slug": "gato-pocion",
+    "icon": "./assets/icono/icon.png",
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+        "foregroundImage": "./assets/icono/adaptive-icon.png",
+        "backgroundColor": "#2D2438"
+      },
+      "package": "com.danel.gatopocion"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "splash": {
+      "image": "./assets/icono/splash-icon.png",
+      "backgroundColor": "#2D2438"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "de545b60-8907-4fff-b45c-b9b9dc0c7952"
+      }
     }
   }
 }
